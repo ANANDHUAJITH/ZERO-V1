@@ -1,6 +1,5 @@
 # ZERO V1: The Programmable Hacker's Watch
 
-![ZERO V1](path_to_image) *(Replace with an actual image of your project)*
 
 ## Table of Contents
 - [Introduction](#introduction)
