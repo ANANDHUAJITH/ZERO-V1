@@ -1149,8 +1149,13 @@ void setup()
     *flag = 0; // Initialize flag to 0
 
     
+  /////////IF ANYTHING DOSNT WORK COMMENT FROM HERE TO  
 
-    if (digitalRead(12) == LOW)
+    if (digitalRead(12) == LOW && digitalRead(13) == LOW && digitalRead(14) == LOW && digitalread(16) == LOW ){
+    flag = 0;
+}
+  ///HERE and remove 'else' from next line
+    else if (digitalRead(12) == LOW)
     {
         *flag = 1;
     }    
